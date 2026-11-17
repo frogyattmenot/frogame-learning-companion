@@ -10,6 +10,6 @@ export default function Home() {
     <AssignmentObjectives />
     <PracticeLab />
     <CodeExplorer />
-    <footer>Start with MainActivity.java, then SecondView.java, then GameBoard.java.</footer>
+    <footer>Start with MainActivity.java, then SecondView.java, then GameBoard.java, PowerCard.java and ComputerPlayer.java.</footer>
   </main>;
 }

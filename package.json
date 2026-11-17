@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "sync-code": "node scripts/sync-android-code.mjs",
+    "predev": "npm run sync-code",
     "dev": "next dev",
+    "prebuild": "npm run sync-code",
     "build": "next build",
     "lint": "eslint ."
   },
